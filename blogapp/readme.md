@@ -1,7 +1,6 @@
 # Blogapp
 
-This project is a PHP blog using the Laravel framework developed by bubble0h7.
-This blog is being created with the intention of documenting things I've learnt, perhaps in tutorial form so others can follow along, but mostly as a reminder for myself on how I did things that worked in the past.
+This project is a PHP blog with the intention of documenting things I've learnt, perhaps in tutorial form so others can follow along, but mostly as a reminder for myself on how I did things that worked in the past.
 
 ## Getting Started
 
