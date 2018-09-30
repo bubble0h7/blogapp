@@ -19,3 +19,5 @@ Route::get('/', 'PagesController@index');
 Route::get('/about', 'PagesController@about');
 Route::get('/blog', 'PagesController@blog');
 
+Route::resource('posts', 'PostsController');
+
