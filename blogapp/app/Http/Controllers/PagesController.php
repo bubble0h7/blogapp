@@ -7,8 +7,8 @@ use Illuminate\Http\Request;
 class PagesController extends Controller
 {
     public function index(){
-        $title = 'HOME';
-        return  view('pages/home', compact('title'));
+        $tab = 'HOME';
+        return  view('pages/home', compact('tab'));
 
         //return view('pages/home')->with('HOME', $title);
 
@@ -16,12 +16,17 @@ class PagesController extends Controller
     }
 
     public function about(){
-        $title = 'ABOUT ME';
-        return view('pages/about', compact('title'));
+        $tab = 'ABOUT ME';
+        return view('pages/about', compact('tab'));
     }
 
     public function blog(){
-        $title = 'BLOG';
-        return view('pages/blog', compact('title'));
+        $tab = 'BLOG';
+        return view('pages/blog', compact('tab'));
+
+        //$posts = Post::orderBy('created_at', 'desc')->take(1)->get();
+        //$posts = Post::orderBy('created_at', 'desc')->get();
+        //$tab = 'BLOG';
+        //return view('pages/blog', compact('tab', 'posts'));
     }
 }
