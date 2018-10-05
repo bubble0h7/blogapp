@@ -12,11 +12,21 @@ class PostsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function blog()
+    {
+        /* $posts = Post::orderBy('created_at', 'desc')->take(1)->get();
+        $tab = 'BLOG';
+        return view('pages/blog', compact('tab', 'posts'));
+        //return $post; */
+        $posts = Post::orderBy('created_at', 'desc')->paginate(1);
+        $tab = 'BLOG';
+        return view('pages/blog', compact('tab', 'posts'));
+    }
+
+    public function archive()
     {
         $posts = Post::orderBy('created_at', 'desc')->paginate(10);
-        //$posts = Post::orderBy('created_at', 'desc')->get();
-        $tab = 'BLOG';
+        $tab = 'ARCHIVE';
         return view('pages/posts', compact('tab', 'posts'));
     }
 
@@ -50,7 +60,7 @@ class PostsController extends Controller
         $post->body = $request->input('body');
         $post->save();
 
-        return redirect('/posts')->with('success', 'Post Created');
+        return redirect('/blog')->with('success', 'Post Created');
     }
 
     /**
@@ -99,7 +109,7 @@ class PostsController extends Controller
         $post->body = $request->input('body');
         $post->save();
 
-        return redirect('/posts')->with('success', 'Post Updated');
+        return redirect('/blog')->with('success', 'Post Updated');
     }
 
     /**
@@ -113,7 +123,7 @@ class PostsController extends Controller
         $post = Post::find($id);
         $post->delete();
 
-        return redirect('/posts')->with('success', 'Post Removed');
+        return redirect('/blog')->with('success', 'Post Removed');
 
     }
 }

@@ -17,7 +17,10 @@
 
 Route::get('/', 'PagesController@index');
 Route::get('/about', 'PagesController@about');
-Route::get('/blog', 'PagesController@blog');
+
 
 Route::resource('posts', 'PostsController');
+Route::get('/blog', 'PostsController@blog');
+Route::get('/archive', 'PostsController@archive');
+//Route::get('posts/{id}', 'PostsController@show');
 

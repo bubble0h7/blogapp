@@ -20,7 +20,7 @@ class PagesController extends Controller
         return view('pages/about', compact('tab'));
     }
 
-    public function blog(){
+    /* public function blog(){
         $tab = 'BLOG';
         return view('pages/blog', compact('tab'));
 
@@ -28,5 +28,12 @@ class PagesController extends Controller
         //$posts = Post::orderBy('created_at', 'desc')->get();
         //$tab = 'BLOG';
         //return view('pages/blog', compact('tab', 'posts'));
-    }
+    } */
+
+    /* public function blog()
+    {
+        $latestpost = Post::orderBy('created_at', 'desc')->take(1)->get();
+        $tab = 'BLOG';
+        return view('pages/blog', compact('tab', 'latestpost'));
+    } */
 }

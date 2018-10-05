@@ -8,6 +8,10 @@
   margin: 0px !important;
 }
 
+code {
+  color: #d9599f !important;
+}
+
 .side-nav {
   background-color: white;
 }
@@ -10513,6 +10517,10 @@ a.text-dark:focus {
   padding-left: 0px !important;
   padding-right: 0px !important;
   margin: 0px !important;
+}
+
+code {
+  color: #d9599f !important;
 }
 
 .side-nav {

@@ -42,7 +42,7 @@
                 <a class="nav-link" href="/blog">Blog</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/posts">Posts</a>
+                <a class="nav-link" href="/archive">Posts</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/about">About Me</a>

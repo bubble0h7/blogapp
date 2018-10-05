@@ -8,7 +8,7 @@
     </div>
     
     <div class="container">
-        <a href="/posts" class="btn btn-primary">Go back</a>
+        <a href="/archive" class="btn btn-primary">Go back</a>
 
         <p>
             <br />

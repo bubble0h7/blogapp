@@ -16,10 +16,10 @@
             <b>Perhaps a bit of background?</b> I have a bachelor's degree in Information and Communications Technology. I hate dressing up though and didn't bother attending graduation. So, does it even count? I graduated, but never actually graduated. Something something, if a trees falls in the forest and no one is around to hear it, something something; I'm pretty sure it's just like that. I have a fancy piece of paper with my name on it though, so that's cool.
         </p>
         <p>
-            <b>Defining traits?</b> Well, I'm female. An IT professional once told me that's important and that I should "sell" that about myself more, though I still fail to see why. How about something more substantial? I ask a million questions to anyone who will humor me enough to answer. Curiousity is the key to learning and boy, would life be boring if you stopped learning new things. What else...
+            <b>Defining traits?</b> Well, I'm female. An IT professional once told me that's important and that I should "sell" that about myself more, though I still fail to see why. How about something more substantial? (I'm not at all bitter I swear...) I ask a million questions to anyone who will humor me enough to answer. Curiousity is the key to learning and boy, would life be boring if you stopped learning new things. What else...
         </p>
         <p>
-            <b>Why programming?</b> A lot of people consider themselves left-brained or right-brained. I'm split down the middle. I need a mix of creativity and logic to keep me happy. Programming gives me a platform to create gorgeous interfaces with slick functionality all the while solving problems.
+            <b>Why programming?</b> A lot of people consider themselves left-brained or right-brained. I'm split down the middle. I need a mix of creativity and logic to keep me happy. Programming gives me a platform to create gorgeous interfaces with slick functionality all the while solving problems. Back to the point about learning too, the internet is forever evolving along with web development so there will always be new things to learn!
         </p>
     </div>
 @endsection
